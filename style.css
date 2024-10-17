@@ -1,0 +1,221 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0)),url(background.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.background2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0)),url(background2.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.background3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.50)),url(background3.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+.navbar .logo{
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px 15px;
+    position: relative;
+    background: white;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px 15px;
+    position: relative;
+    background: white;
+}
+.navbar ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-decoration: underline;
+    color: #000000;
+    text-transform: capitalize;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    flex-basis: 50%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: black;
+}
+.about{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+}
+.about{
+    width: 40%;
+    height: 50%;
+    border: 0;
+    padding: 0%;
+    left: 60px;
+    position: fixed;
+}
+.about h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.about p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.portfolio{
+    margin: 5px;
+    border: 5px solid white;
+    float: left;
+}
+.portfolio div{
+    margin: 0.50%;
+    width: 99%;
+    height: auto;
+}
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+    gap: 10px;
+}
+.image-gallery div{
+    flex: 1 1 200px;
+    max-width: calc(400px - 30px);
+    transition: transform 0.3s;
+}
+.image-gallery img{
+    width: 100%;
+    height: auto;
+}
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.Contact{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.Contact h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color: #fff;
+    margin-bottom: 6px;
+}
+.Contact p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 180%;
+}
+.Contact a{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.Contact a i{
+    margin-right: 6px;
+}
+
+@media(max-width: 600px) {
+    .content h1{
+    font-size: 35px;
+    }
+    .image-gallery div{
+        flex: 1 0 100%;
+    }
+    .image-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(1px, 1fr));
+    }
+    .image-gallery img {
+        max-width: 100%;
+    }
+@media (max-width: 800px) {
+    .about {
+        width: 50%; 
+        left: 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .about {
+        width: 90%; 
+        left: 5%; 
+        padding: 10px; 
+    }
+}
+
+
+@media (max-width: 300px) {
+    .about {
+        padding: 5px;
+    }
+}
+@media (min-width: 1024px){
+    .image-gallery div{
+        flex: 1 0 300px;
+        max-width: calc(33.33% - 20px);
+    }
+
+}
+    
+}
+
