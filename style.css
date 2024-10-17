@@ -173,6 +173,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .Contact a i{
     margin-right: 6px;
 }
+
 @media(max-width: 600px) {
     .content h1{
     font-size: 35px;
