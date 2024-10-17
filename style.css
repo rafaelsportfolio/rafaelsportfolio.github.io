@@ -84,7 +84,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     flex-basis: 50%;
     width: 100%;
     position: absolute;
-    position: fixed;
     top: 50%;
     transform: translateY(-50%);
     text-align: left;
@@ -105,14 +104,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     position: fixed;
 }
 .about h1{
-    position: absolute;
-    position: fixed;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 .about p{
-    position: absolute;
-    position: fixed;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
