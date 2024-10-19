@@ -80,6 +80,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     font-family: 'Times New Roman', Times, serif;
 }
 .about{
+    overflow-y: auto;
+    max-height: 100vh;
+}
+.about{
     font-family: 'Times New Roman', Times, serif;
     flex-basis: 50%;
     width: 100%;
@@ -102,10 +106,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     padding: 0%;
     left: 60px;
     position: fixed;
-}
-.about{
-    overflow-y: auto;
-    max-height: 100vh;
 }
 .about h1{
     font-family: 'Times New Roman', Times, serif;
