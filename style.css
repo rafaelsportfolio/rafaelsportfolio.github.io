@@ -103,6 +103,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     left: 60px;
     position: fixed;
 }
+.about{
+    overflow-y: auto;
+    max-height: 100vh;
+}
 .about h1{
     font-family: 'Times New Roman', Times, serif;
     color: white;
