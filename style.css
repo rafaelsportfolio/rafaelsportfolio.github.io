@@ -79,33 +79,21 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
 }
-.about{
-    overflow-y: auto;
-    max-height: 100vh;
+.about {
+    box-sizing: border-box;
+    margin: 20px auto; 
+    width: 90%;
+    max-width: 800px; 
+    padding: 20px;  
+    overflow-y: auto; /* Keep this if you have long content */
 }
 .about{
     font-family: 'Times New Roman', Times, serif;
-    flex-basis: 50%;
     width: 100%;
-    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    text-align: left;
+    transform: translateY(30%);
+    text-align: center;
     color: black;
-}
-.about{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    height: 50%;
-}
-.about{
-    width: 40%;
-    height: 50%;
-    border: 0;
-    padding: 0%;
-    left: 60px;
-    position: fixed;
 }
 .about h1{
     font-family: 'Times New Roman', Times, serif;
