@@ -91,7 +91,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
     top: 50%;
-    transform: translateY(30%);
+    transform: translateY(10%);
     text-align: center;
     color: black;
 }
